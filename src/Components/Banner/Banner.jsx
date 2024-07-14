@@ -2,7 +2,7 @@
 
 const Banner = () => {
     return (
-        <div>
+        <div className="min-h-screen">
             
         </div>
     );
