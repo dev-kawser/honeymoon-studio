@@ -11,12 +11,12 @@ const Navbar = () => {
 
     return (
         <div className="shadow-lg">
-            <div className="container mx-auto flex justify-between items-center">
+            <div className="container mx-auto flex justify-between items-center py-1">
                 <div className="navbar ">
                     <div className="navbar-start">
                         <div className=" flex flex-col items-center">
-                            <a className="btn btn-ghost ribeye uppercase lg:text-3xl text-xl">Honeymoon</a>
-                            <p className="roboto uppercase -mt-2 tracking-widest lg:text-2xl text-lg">studio</p>
+                            <a className="p-2 ribeye uppercase lg:text-3xl text-xl">Honeymoon</a>
+                            <p className="roboto uppercase -mt-2 tracking-widest lg:tracking-[12px] lg:text-2xl text-lg">studio</p>
                         </div>
                     </div>
                     <div className="navbar-end hidden lg:flex">
