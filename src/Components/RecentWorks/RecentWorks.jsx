@@ -5,7 +5,7 @@ import img4 from "../../assets/images/recentimg4.png"
 
 const RecentWorks = () => {
     return (
-        <div className="lg:mt-16 mt-7">
+        <div className="lg:mt-16 mt-10">
             <div className="text-center">
                 <h1 className="righteous lg:text-6xl text-4xl">
                     Recent Works
