@@ -3,6 +3,7 @@ import Discount from "../../Components/Discount/Discount";
 import RecentWorks from "../../Components/RecentWorks/RecentWorks";
 import Message from "../../Components/Message/Message";
 import Partner from "../../Components/Partner/Partner";
+import Reviews from "../../Components/Reviews/Reviews";
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <RecentWorks></RecentWorks>
             <Message></Message>
             <Partner></Partner>
+            <Reviews></Reviews>
         </div>
     );
 };
