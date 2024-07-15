@@ -4,6 +4,7 @@ import RecentWorks from "../../Components/RecentWorks/RecentWorks";
 import Message from "../../Components/Message/Message";
 import Partner from "../../Components/Partner/Partner";
 import Reviews from "../../Components/Reviews/Reviews";
+import Appointment from "../../Components/Appointment/Appointment";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <Message></Message>
             <Partner></Partner>
             <Reviews></Reviews>
+            <Appointment></Appointment>
         </div>
     );
 };

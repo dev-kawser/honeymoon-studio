@@ -25,7 +25,7 @@ const Reviews = () => {
                     Etiam eget sem sit amet nisi viverra iaculis non vulputate mi. Etiam viverra et ante id laoreet. Etiam eget sem sit amet nisi viverra iaculis non vulputate mi. Etiam viverra et ante id laoreet.
                 </p>
             </div>
-            <div className="mt-8">
+            <div className="mt-10">
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={10}
