@@ -8,7 +8,7 @@ const Appointment = () => {
                 <div>
                     <img src={img1} alt="" className="lg:w-full w-24 lg:flex hidden" />
                 </div>
-                <div className="lg:w-2/3 w-full lg:h-[600px] h-72 bg-white rounded p-12">
+                <div className="lg:w-2/3 w-full lg:h-[600px] h-96 bg-white rounded p-12">
                     <h1 className="text-center righteous text-2xl lg:text-6xl">
                         Book An Appointment
                     </h1>
@@ -29,7 +29,7 @@ const Appointment = () => {
                         </div>
 
                         <label htmlFor="message" className="block mb-2 text-sm text-gray-900 dark:text-gray-400">Message</label>
-                        <textarea id="message" rows="4" className="block p-2.5 w-full rounded-lg text-blue-400 border-b border-black outline-none"></textarea>
+                        <textarea id="message" rows="1" className="block p-2.5 w-full rounded-lg text-blue-400 border-b border-black outline-none"></textarea>
 
                         <input className="w-full lg:text-base text-xs py-2 text-center bg-[#252525] text-white mt-10" type="button" value="Book a Free Consultation" />
                     </form>
