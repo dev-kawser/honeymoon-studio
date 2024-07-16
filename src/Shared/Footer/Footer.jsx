@@ -17,7 +17,7 @@ const Footer = () => {
                     <a className="link link-hover">Marketing</a>
                     <a className="link link-hover">Advertisement</a>
                 </nav>
-                <nav>
+                <nav className="lg:grid hidden">
                     <h6 className="footer-title">Company</h6>
                     <a className="link link-hover">About us</a>
                     <a className="link link-hover">Contact</a>
@@ -33,7 +33,7 @@ const Footer = () => {
             </footer>
 
             <aside className="footer-center bg-[#302626] text-white border-t p-4">
-                <p>Copyright © ${new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+                <p>Copyright © ${new Date().getFullYear()} - All right reserved by Honeymoon Studio</p>
             </aside>
         </div>
     );

@@ -8,7 +8,7 @@ const Appointment = () => {
                 <div>
                     <img src={img1} alt="" className="lg:w-full w-24 lg:flex hidden" />
                 </div>
-                <div className="lg:w-2/3 w-full lg:h-[600px] h-96 bg-white rounded p-12">
+                <div className="lg:w-2/3 w-full lg:h-[600px] h-96 bg-white rounded p-5 lg:p-12">
                     <h1 className="text-center righteous text-2xl lg:text-6xl">
                         Book An Appointment
                     </h1>

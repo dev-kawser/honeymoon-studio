@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <div className="shadow-lg">
-            <div className="container mx-auto flex justify-between items-center py-1">
+            <div className="container mx-auto flex justify-between items-center lg:py-1">
                 <div className="navbar ">
                     <div className="navbar-start">
                         <div className=" flex flex-col items-center">
@@ -31,7 +31,7 @@ const Navbar = () => {
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
+                            className="h-8 w-8"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -44,7 +44,7 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-10 w-40 p-2 shadow josefin text-black uppercase">
+                        className="menu menu-sm dropdown-content bg-base-100 rounded z-[1] mt-10 w-32 p-2 shadow josefin text-black uppercase underline">
                         {
                             links
                         }
